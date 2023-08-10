@@ -1,11 +1,11 @@
 export default function SearchBox({ search }) {
   return (
-    <div className="pa2">
+    <div>
       <input
-        className="pa3 ba b--green bg-lightest-blue br4"
+        className="searchBox"
         type="text"
         onChange={search}
-        placeholder="search scientific name or common name..."
+        placeholder="search by scientific or common name ..."
       ></input>
     </div>
   );
