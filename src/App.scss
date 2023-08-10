@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&family=Zen+Tokyo+Zoo&display=swap');
+
+
+body {
+  height: 100vh;
+  background: white;
+  font-family: 'Quicksand', serif;
+
+
+}
+.app {
+  .title {
+    font-family: 'Zen Tokyo Zoo', serif;
+    font-size: 70px;
+    color: #45834c;
+  }
+  
+  .cardlist{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    grid-gap: 24px;
+    padding: 24px;
+
+    .results-count{
+      font-size: 26px;
+      font-weight: 800;
+      color: #403c3c;
+      text-transform: uppercase;
+
+
+    }
+    .card {
+      box-shadow: 8px 12px 3px 1px rgb(117 123 117 / 41%);
+      background: white ;
+      color: #403c3c;
+      border-radius: 5px;
+      border: solid 1px rgb(188 213 188 / 41%);
+      padding: 25px 15px;
+      margin: 10px;
+      h2 {
+       font-size: 16px;
+       margin-bottom: 16px;
+     
+    
+      }
+      .header {
+        color: rgb(204, 200, 200);
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+      .info {
+        margin-bottom: 3px;
+        font-size: 14px;
+        &.category, &.family, &.climate{
+          text-transform: capitalize;
+        }
+       
+       
+     }
+      .details {
+        margin-top: 12px;
+        display: grid;
+        grid-template-columns:  repeat(3, 1fr);
+        column-gap: 10px;
+     
+      }
+      img {
+        border-radius: 5px;
+        height: 200px;
+        width: 180px;
+        object-fit: cover;
+
+      }
+      .highlight{
+        background-color: #f1a6a8;
+      }
+    
+    
+      
+     
+    }
+  }
+
+}
