@@ -2,19 +2,15 @@
 
 A single page application where the user can search for house plants 🌱🪴🌱
 
-<table>
-	<tr>
-		<td>
-			Plant finder is a ReactJS web application that uses CSS GRID to display Cards for different plants.  We can search dynamically through those cards by common name or scientific name of the plant.  Each card displays family, cateogry, and climate for the different plants. 
-		</td>
-	</tr>
-</table>
+Plant finder is a ReactJS web application that uses CSS GRID to display Cards for different plants.  You can search dynamically through those cards by common name or scientific name of the plant.  Each card displays family, cateogry, and climate for the different plants. 
+
 
 ## Key Features
 
 Some of the standout features of the project are
 
-1. Dynamically search for plants to learn what plant family, category, and climate they belong to.
+1. Dynamically search for plants to learn what plant family, category, and climate they belong to.  Each card displays family, cateogry, and climate for the different plants. 
+
 
 ## Technology Used :
 
