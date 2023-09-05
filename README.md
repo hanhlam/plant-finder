@@ -4,6 +4,9 @@ A single page application where the user can search for house plants 🌱🪴�
 
 Plant finder is a ReactJS web application that uses CSS GRID to display Cards for different plants.  You can search dynamically through those cards by common name or scientific name of the plant.  Each card displays family, cateogry, and climate for the different plants. 
 
+### Deployed Version (Feel free to visit) 👇
+
+https://hanhlam.github.io/plant-finder/
 
 ## Key Features
 
@@ -29,6 +32,3 @@ To run this project :
 4. Run `npm start`
 5. open [http://localhost:3006/plant-finder](http://localhost:3006/plant-finder) to view it in the browser.
 
-### Deployed Version (Feel free to visit) 👇
-
-https://hanhlam.github.io/plant-finder/
